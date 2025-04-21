@@ -1,0 +1,237 @@
+/* ============================
+    Root Variables
+=============================== */
+:root {
+  --primary-bg: #212529;
+  --accent-color: #00ffcc;
+  --section-bg: #e8ded2;
+  --tutorial-bg: #a3d2ca;
+  --feedback-bg: #5eaaa8;
+  --footer-bg: #056676;
+  --highlight-color: #ff02c0;
+  --icon-bg: #bb0aac;
+}
+
+/* ============================
+    Navbar Custom Style
+=============================== */
+.navbar-custom {
+  background-color: var(--primary-bg);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.nav-link {
+  transition: 0.3s;
+}
+
+.nav-link:hover {
+  color: var(--accent-color) !important;
+  transform: scale(1.05);
+}
+
+.nav-link.active {
+  color: var(--accent-color) !important;
+  font-weight: bold;
+}
+
+/* ============================
+    Form Styles
+=============================== */
+.form-control,
+.btn-outline-success {
+  border-radius: 25px;
+}
+
+/* ============================
+    Banner Section
+=============================== */
+.banner-container {
+  height: 70vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/banner.jpg') no-repeat center center/cover;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.banner-content h1 {
+  background-color: rgba(9, 200, 90, 0.8);
+  padding: 0 2%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.banner-content .btn {
+  margin: 10px;
+  padding: 10px 25px;
+  font-size: 1.1rem;
+}
+
+/* ============================
+    Features Section
+=============================== */
+#features {
+  padding: 5% 10%;
+  background-color: var(--section-bg);
+}
+
+.features-col {
+  border: 1px solid var(--highlight-color);
+  padding: 15px;
+  border-radius: 5px;
+  margin: 20px 0;
+  transition: 0.4s;
+}
+
+.features-col:hover {
+  transform: scale(1.1);
+  box-shadow: 2px 6px 5px rgba(0, 0, 0, 0.4);
+}
+
+/* ============================
+    Icon Section
+=============================== */
+.icon-style {
+  background-color: var(--icon-bg);
+  padding: 15px;
+  margin: 5px 0;
+}
+
+/* ============================
+    Horizontal Rule Style
+=============================== */
+.hr-style {
+  border: 3px dotted black;
+  border-bottom: none;
+  width: 30%;
+  height: 4px;
+  margin: auto;
+}
+
+/* ============================
+    About Me Section
+=============================== */
+#about-me {
+  padding: 4% 10%;
+  background-color: var(--section-bg);
+}
+
+#about-me p {
+  font-size: 0.9rem;
+  margin-bottom: 0;
+  font-weight: 300;
+}
+
+#about-me a {
+  font-size: 0.9rem;
+  font-weight: 300;
+  color: rgb(144, 5, 5);
+  text-decoration: none;
+}
+
+.section-title-h3 {
+  font-weight: bolder;
+  margin-bottom: 0;
+}
+
+/* ============================
+    Tutorial Section
+=============================== */
+#tutorial {
+  padding: 4% 10%;
+  background: var(--tutorial-bg);
+}
+
+.card {
+  transition: 0.4s ease;
+  border: 1px solid var(--highlight-color);
+  margin-top: 10px;
+  text-align: center;
+}
+
+.card h3 {
+  padding: 20px;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  box-shadow: 2px 5px 6px black;
+}
+
+/* ============================
+    Feedback Section
+=============================== */
+#feedback {
+  padding: 5px;
+  background: var(--feedback-bg);
+}
+
+.feedback-img {
+  width: 120px;
+  height: auto;
+  margin-bottom: 5px;
+}
+
+.carousel-item {
+  text-align: center;
+}
+
+/* ============================
+    Contact Section
+=============================== */
+#contact-me {
+  padding: 2px 10px;
+  background: var(--feedback-bg);
+}
+
+/* ============================
+    Footer Section
+=============================== */
+footer {
+  padding: 1px 10px;
+  background: var(--footer-bg);
+}
+
+footer a {
+  color: white;
+  margin: 1px 10px;
+  transition: 0.3s;
+}
+
+footer a:hover {
+  color: black;
+}
+
+/* ============================
+    Responsive Layout
+=============================== */
+@media (max-width: 768px) {
+  #features,
+  #about-me,
+  #tutorial {
+    padding: 10% 5%;
+  }
+
+  .banner-content h1 {
+    font-size: 2rem;
+  }
+
+  .banner-content .btn {
+    font-size: 1rem;
+    padding: 8px 20px;
+  }
+}
+
+/* ============================
+    Smooth Scroll
+=============================== */
+html {
+  scroll-behavior: smooth;
+}
+a, h2, h3, h4, h5, p {
+  font-family: 'Montserrat', sans-serif;
+}

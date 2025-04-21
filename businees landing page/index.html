@@ -1,0 +1,336 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Skill Learning</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"> <!-- Custom CSS file -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body class="bg-light text-dark">
+    <div class="container-fluid m-0 p-0">
+      <header>
+        <nav class="navbar navbar-expand-md navbar-custom">
+          <div class="container-fluid">
+            <a class="navbar-brand d-flex align-items-center text-white" href="#">
+              <img src="../images/skill-station.png" width="50" alt="logo">
+              <!-- <span class="ms-2 fw-bold">Skill Station</span> -->
+            </a>
+            <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-2">
+                <li class="nav-item">
+                  <a class="nav-link active text-white" href="#"><i class="fa-solid fa-house"></i> Home</a>
+                </li>
+                <li>
+                  <a href="#about-me" class="nav-link text-white">
+                    <i class="fas fa-id-card"></i> About Me
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#tutorial"><i class="fa-solid fa-book"></i> Tutorials</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#feedback"><i class="fa-solid fa-comments"></i> Feedback</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#contact-me"><i class="fa-solid fa-phone"></i> Contact</a>
+                </li>
+              </ul>
+              <form class="d-flex me-3" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+              <button class="btn btn-secondary" id="toggleMode"><i class="fa-solid fa-moon"></i></button>
+            </div>
+          </div>
+        </nav>
+
+        <!-- Banner Section -->
+        <section id="banner">
+          <div class="banner-container">
+            <div class="banner-content">
+              <h1>Learn more and more!!</h1>
+              <button type="button" class="btn btn-success" onclick="location.href='#tutorial'"> <i class="fa-solid fa-play mr-2 text-danger"></i>
+                Tutorials</button>
+              <button type="button" class="btn btn-success" onclick="window.open('https://www.facebook.com/anwar.anwarhossen.7') " class="request-callback"><i class="fa-brands fa-youtube text-danger mr-2"></i>
+                Subscribe</button>
+            </div>
+          </div>
+        </section>
+      </header>
+
+      <!-- Content will go here -->
+      <main>
+        <section id="features" class="text-center">
+          <div class="row">
+            <div class="col-md-4 d-block d-lg-flex">
+              <div class="features-col">
+                <i class="fa-solid fa-hand-holding-usd icon-style rounded-circle fa-3x text-secondary text-white"></i>
+                <h5 class="font-weight-bold">Free to Use</h5>
+                <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt placeat maiores tenetur, ducimus accusamus temporibus?</p>
+              </div>
+            </div>
+            <div class="col-md-4 d-block d-lg-flex">
+              <div class="features-col">
+                <i class="fas fa-lightbulb icon-style rounded-circle fa-3x text-white"></i>
+                <h5 class="font-weight-bold">Easy to Learn</h5>
+                <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt placeat maiores tenetur, ducimus accusamus temporibus?</p>
+              </div>
+            </div>
+            <div class="col-md-4 d-block d-lg-flex">
+              <div class="features-col ">
+                <i class="fas fa-reply icon-style rounded-circle fa-3x text-secondary text-white"></i>
+                <h5 class="font-weight-bold">Fast to Response</h5>
+                <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt placeat maiores tenetur, ducimus accusamus temporibus?</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <!-- about me  start-->
+       <section id="about-me">
+        <div class="section-title ">
+          <h3 class="text-center">About Me</h3>
+          <hr class="hr-style">
+        </div>
+        <div class="row">
+          <div class="col-md-5">
+            <div class="basic-disc">
+              <i class="far fa-user fa-2x icon-style rounded-circle"></i>
+              <h5 class="font-weight-bolder">Personal info</h5>
+              <p>Name: Md. Anwar Hossen</p>
+              <p>Profession: Programmer</p>
+              <p>Address: Dhaka , Bangladesh</p>
+              <p>Facebook: <a href="https://www.facebook.com/anwar.anwarhossen.7" target="_blank">My facebook</a></p>
+              <p>Whats app: <a href="#" target="_blank">My Whats app</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-7"></div>
+          <div class="col-md-5">
+            <div class="achieve desc text-center text-lg-left">
+              <i class="fas  fa-graduation-cap fa-2x icon-style rounded-circle"></i>
+              <h5 class="font-weight-bolder"> Aducation</h5>
+              <p>B.Sc. in Computer Science & Eng (2016-2019)</p>
+              <p>National University</p>
+              <p>Heigher Secondary School(2011-2014)</p>
+              <p>Santush Islamic University, Tangail</p>
+              <p>Secondary School(2009-2011)</p>
+              <p>Haji Abul Hossen High School, Tangail</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-5">
+            <i class="fas fa-solid fa-cogs fa-2x icon-style rounded-circle"></i>
+            <h5 class="font-weight-bolder">Skills</h5>
+            <table>
+              <tr>
+                <td>HTML</td>
+                <td>
+                  <span class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>CSS</td>
+                <td>
+                  <span class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>BOOTSTRAP</td>
+                <td>
+                  <span class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>JAVASCRIPT</td>
+                <td>
+                  <span class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>REACT</td>
+                <td>
+                  <span class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+       </section>
+       <!-- about me end -->
+
+        <!-- tutorial start here -->
+        <section id="tutorial">
+          <div class="section-title">
+            <h3 class="text-center">Tutorial</h3>
+            <hr class="hr-style">
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card p-2">
+                <img class="card-img-top" src="https://media.istockphoto.com/id/2175904944/photo/teenager-girl-types-code-on-laptop-while-studying-at-a-home-desk-surrounded-by-plants-and.jpg?s=612x612&w=0&k=20&c=NAycQdwr5hInh90bn6Z27BaQtJBPjidcSNn9nR-0f1k=" alt="Tutorial">
+                <div class="card-body">
+                  <h5 class="card-title">HTML Basics</h5>
+                  <p class="card-text">Learn the basics of HTML. Understand the structure of a webpage and create your first webpage.</p>
+                  <button class="btn btn-outline-success" onclick="location.href='#tutorial'">Start Learning</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card p-2">
+                <img class="card-img-top" src="https://media.istockphoto.com/id/2151904502/photo/closeup-young-man-software-developers-using-computer-to-write-code-application-program-for-ai.jpg?s=612x612&w=0&k=20&c=NeXxUDmFJ1ztV8wK6_VeZEhk3hINe-I6JnkupSLEzbs=" alt="Tutorial">
+                <div class="card-body">
+                  <h5 class="card-title">CSS Mastery</h5>
+                  <p class="card-text">Learn the fundamentals of CSS and how to design attractive websites with proper styling.</p>
+                  <button class="btn btn-outline-success" onclick="location.href='#tutorial'">Start Learning</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card p-2">
+                <img class="card-img-top" src="https://media.istockphoto.com/id/2162752546/photo/computer-programmer-software-engineer-typing-coding-javascript-on-laptop-computer-software.jpg?s=612x612&w=0&k=20&c=lTDv0G79BgSVg9s6uhrWAXzrv9kAys5crox5idQ4AJ8=" alt="Tutorial">
+                <div class="card-body">
+                  <h5 class="card-title">JavaScript Basics</h5>
+                  <p class="card-text">Dive into JavaScript basics. Learn how to add functionality to your website using JavaScript.</p>
+                  <button class="btn btn-outline-success" onclick="location.href='#tutorial'">Start Learning</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+  
+         <!-- tutorial end here -->
+
+          <!-- feed back start -->
+           <section id="feedback" class="mb-1">
+            <div class="section-title ">
+              <h3 class="text-center">Feedback</h3>
+              <hr class="hr-style">
+            </div>
+            <div class="row">
+              <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="10000">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos culpa veniam cupiditate non rem error, porro labore expedita hic suscipit!</p>
+                    <img class=" feedback-img rounded-circle" src="https://images.unsplash.com/photo-1744167602287-77dc1cabd4e6?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxNHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100" alt="feedbackimg">
+                    <h3>Elina</h3>
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque quasi voluptatibus molestiae temporibus quisquam consectetur, repudiandae perferendis minus fuga eveniet!</p>
+                    <img class=" feedback-img rounded-circle" src="https://images.unsplash.com/photo-1744144501177-5666f17e190c?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw2fHx8ZW58MHx8fHx8" class="d-block w-100" alt="feedbackimg">
+                    <h3>Kushal</h3>
+                  </div>
+                  <div class="carousel-item">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum distinctio explicabo corporis temporibus in aliquam!</p>
+                    <img class=" feedback-img rounded-circle" src="https://plus.unsplash.com/premium_photo-1744888432880-1b9c6fb1f612?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw1fHx8ZW58MHx8fHx8" class="d-block w-100" alt="feedbackimg">
+                    <h3>Harry</h3>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+           </section>
+          <!-- feed back end -->
+
+          <!-- contact me section start -->
+           <section id="contact-me">
+            <div class="section-title ">
+              <h3 class="text-center pt-2">Contact-me</h3>
+              <hr class="hr-style">
+            </div>
+            <div class="row">
+              <div class="col-lg-12">
+                <form action="mailto:anwarhossen0258@gmil.com" method="post" enctype="text/plain" class="was-validated">
+                  <div class="form-group">
+                    <label for="fullname">Fullname</label>
+                    <input type="text" class="form-control" name="fullname" required>
+                    <div class="valid-feedback">Valid</div>
+                    <div class="invalid-feedback">Enter full name before submite the form</div>
+                  </div>
+                  <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" name="email" required>
+                    <div class="valid-feedback">Valid</div>
+                    <div class="invalid-feedback">Enter Email before submite the form</div>
+                  </div>
+                  <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea name="" id="" cols="20" rows="4" class="form-control"></textarea>
+                    <div class="valid-feedback">Valid</div>
+                    <div class="invalid-feedback">Enter full name before submite the form</div>
+                  </div>
+                  <div class="form-group text-center">
+                    <input type="submit" class="btn btn-primary" value="submit">
+                    <input type="reset" class="btn btn-primary" value="reset">
+                  </div>
+                </form>
+              </div>
+            </div>
+           </section>
+
+           <!-- contact me section end -->
+      <footer class="text-center py-3">
+        <div class="row text-white">
+          <div class="col-md-6">
+            <p class="small">&copy; Copywrite Anwar Hossen</p>
+          </div>
+          <div class="col-md-6 text-center">
+            <a href="#">Home</a>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+      // Night Mode Toggle
+      const toggleBtn = document.getElementById("toggleMode");
+      toggleBtn.addEventListener("click", () => {
+        document.body.classList.toggle("bg-dark");
+        document.body.classList.toggle("text-white");
+        toggleBtn.classList.toggle("btn-light");
+        toggleBtn.classList.toggle("btn-secondary");
+      });
+    </script>
+  </body>
+</html>
